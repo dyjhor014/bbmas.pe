@@ -1,0 +1,51 @@
+:root {
+    --main-bg-color: #FFFFFF;
+    --primary-color: #364461;
+    --secondary-color: #E3BA6A;
+    --terciary-color: #000000;
+    --fourty-color: rgb(217, 217, 217,0.15);
+    --primary-font: "Inter", sans-serif;
+    --logo-size: 40px;
+    --text-size: 11px;
+    --text-nav-size: 14px;
+    --title-size:34px;
+}
+.logo{
+    color: var(--secondary-color);
+    font-weight: 600;
+    transform: rotate(-15deg);
+    font-family: var(--primary-font);
+    font-size: var(--logo-size);
+    
+}
+.nav{
+    background-color: var(--primary-color);
+}
+.link:hover{
+    color: var(--secondary-color);
+}
+.title{
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    font-weight: 900;
+    font-size: var(--title-size);
+    padding: 2.2rem;
+    text-transform: uppercase;
+}
+.text{
+    color: var(--terciary-color);
+    font-family: var(--primary-font);
+    font-size: var(--text-size);
+    padding: 1rem;
+}
+.text-nav{
+    color: var(--main-bg-color);
+    font-family: var(--primary-font);
+    font-size: var(--text-nav-size);
+}
+
+.img-slides{
+    height: 90vh;
+    width: auto;
+    object-fit: cover;
+}
