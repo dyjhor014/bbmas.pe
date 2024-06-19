@@ -23,8 +23,18 @@
         -1px 1px 0 var(--terciary-color),
         1px 1px 0 var(--terciary-color);
 }
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+ul li{
+    float: right;
+}
 .nav{
     background-color: var(--primary-color);
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
 .nav-text{
     text-transform: uppercase;
@@ -75,16 +85,25 @@ h3{
 .marca{
     object-fit: cover;
 }
-.footer-text{
-    color: var(--main-bg-color) !important;
+.footer{
+    background-color: var(--primary-color);
+}
+footer{
+    height: 150px;
+}
+.social-bar{
+    width: 284px;
+    height: 48.32px;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+}
+.nav-text2{
     text-transform: uppercase;
     font-weight: 600;
     padding: .5rem;
+    color: var(--secondary-color);
     font-family: var(--secondary-font);
 }
-
-.footer-text:hover{
-    background-color: var(--main-bg-color);
-    color: var(--primary-color);
-    border-radius: 15px;
+i{
+    color: #364461;
 }
