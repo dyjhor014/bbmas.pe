@@ -46,6 +46,7 @@ ul li{
     background-color: var(--main-bg-color);
     color: var(--primary-color);
     border-radius: 15px;
+    transition: .5s;
 }
 .link:hover{
     color: var(--secondary-color);
@@ -150,5 +151,108 @@ footer{
 }
 .social-bar .youtube:hover {
     color: var(--main-bg-color);
+    transition: .5s;
+}
+/* Estilos porqué elegirnos */
+.barra-izquierda{
+    width: 300px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra-izquierda p{
+    writing-mode: vertical-lr;
+    text-orientation: unset;
+    transform: rotate(180deg);
+    font-size: 32px;
+    font-weight: 800;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    margin: 0;
+}
+.barra-central{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-barra-central{
+    font-size: 20px;
+    font-family: var(--primary-font);
+    float: left;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.span-barra-central{
+    font-weight: 800;
+}
+.barra-central ol li{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: var(--terciary-color);
+    margin-bottom: 3rem;
+}
+.barra-derecha{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.barra-derecha ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.barra-derecha ul li{
+    margin: 14px 0;
+}
+.barra-derecha i{
+    font-size: 54px;
+}
+.barra-derecha .smile {
+    color: yellowgreen;
+}
+.barra-derecha .smile:hover {
+    color: var(--primary-color);
+    transition: .5s;
+}
+.barra-derecha .shield {
+    color: var(--primary-color);
+}
+.barra-derecha .shield:hover {
+    color: var(--secondary-color);
+    transition: .5s;
+}
+.barra-derecha .shop {
+    color: var(--secondary-color);
+}
+.barra-derecha .shop:hover {
+    color: var(--primary-color);
+    transition: .5s;
+}
+.barra-derecha .clock {
+    color: var(--primary-color);
+}
+.barra-derecha .clock:hover {
+    color: var(--secondary-color);
+    transition: .5s;
+}
+.barra-derecha .cash {
+    color: green;
+}
+.barra-derecha .cash:hover {
+    color: var(--primary-color);
+    transition: .5s;
+}
+.barra-derecha .management {
+    color: var(--primary-color);
+}
+.barra-derecha .management:hover {
+    color: var(--secondary-color);
     transition: .5s;
 }
