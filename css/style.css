@@ -2,14 +2,15 @@
     --main-bg-color: #FFFFFF;
     --primary-color: #364461;
     --secondary-color: #E3BA6A;
-    --terciary-color: #000000;
+    --tertiary-color: #000000;
     --fourty-color: rgb(217, 217, 217,0.15);
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Roboto", sans-serif;
     --logo-size: 40px;
     --text-size: 14px;
-    --text-nav-size: 14px;
+    --text-nav-size: 16px;
     --title-size:24px;
+    --a-size: 20px;
 }
 .logo{
     color: var(--secondary-color);
@@ -68,7 +69,10 @@ ul li{
 
 .img-slides{
     height: 100vh;
-    width: auto;
+    width: 100%;
+}
+#imagen-banner{
+    object-fit: cover;
 }
 
 .text-slides{
@@ -209,10 +213,10 @@ footer{
     align-items: flex-end;
 }
 .barra-derecha ul li{
-    margin: 14px 0;
+    margin: 20px 0;
 }
 .barra-derecha i{
-    font-size: 54px;
+    font-size: 42px;
 }
 .barra-derecha .smile {
     color: yellowgreen;
