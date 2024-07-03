@@ -148,7 +148,7 @@ div a span{
 /* Estilos responsivos para smartphones */
 @media (max-width: 768px) {
     .bg-image {
-        height: 100%;
+        height: auto;
     }
     .div-50, .div-50-2 {
         width: 100%;
