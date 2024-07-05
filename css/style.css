@@ -282,3 +282,37 @@ footer{
     color: var(--secondary-color);
     transition: .5s;
 }
+/* Estilos responsivos para smartphones */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: block;
+        border: none;
+        background: none;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: var(--primary-color);
+    }
+
+    .nav-menu.show {
+        display: flex;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    .nav-text {
+        padding: 1rem;
+        color: var(--main-bg-color);
+    }
+}
+
+/* Estilos adicionales */
+.navbar-toggler:focus {
+    outline: none;
+}

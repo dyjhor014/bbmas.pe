@@ -22,11 +22,14 @@
         <div class="fixed-top">
             <div class="px-3 py-2 border-bottom nav">
                 <div class="container">
-                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <div class="d-flex flex-wrap align-items-center justify-content-between">
                         <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                             <h3 class="logo">BB+</h3>
                         </a>
-                        <ul class="col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                        <button class="navbar-toggler d-lg-none" type="button" aria-label="Toggle navigation">
+                            <i class="bi bi-list text-white"></i>
+                        </button>
+                        <ul class="col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small nav-menu">
                             <li class="nav-item">
                                 <a href="#comofunciona" class="nav-link text-white link text-nav">
                                     <p class="mb-0 nav-text">¿Cómo funciona?</p>
@@ -170,21 +173,21 @@
         <h2 class="title text-center">Marcas que comercializamos</h2>
         <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
             slides-per-view="6">
-            <swiper-slide><img src="https://mir-s3-cdn-cf.behance.net/projects/404/3e0f8686263889.Y3JvcCw5NjAsNzUwLDAsMTA0.png" alt=""></swiper-slide>
-            <swiper-slide><img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/b3e82432353161.5605bd24d129f.png" alt=""></swiper-slide>
-            <swiper-slide><img src="https://pbs.twimg.com/profile_images/1278493325721587712/o1ppvkpf_400x400.jpg" alt=""></swiper-slide>
-            <swiper-slide><img src="https://media.diageocms.com/media/fiofdars/johnnie-walker-brand.png" alt=""></swiper-slide>
-            <swiper-slide><img src="https://images.squarespace-cdn.com/content/v1/61996c40d7f9bc62f0109170/a83fb896-b1e8-4204-bcdc-910e9389962d/logo-square.jpg" alt=""></swiper-slide>
-            <swiper-slide><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvKqd8ZkhyQ26ZjKcw5oX2bsiP70nqL_akFw&s" alt=""></swiper-slide>
-            <swiper-slide><img src="https://pbs.twimg.com/profile_images/1525257777807073283/Hr35BA-__400x400.jpg" alt=""></swiper-slide>
-            <swiper-slide><img src="https://shop.saxdepartment.com/storage/images/brands/1685915581CHIVAS%20REGAL%20logo.jpeg" alt=""></swiper-slide>
-            <swiper-slide><img src="https://icdn.bottlenose.wine/images/full/633428.jpg?ar=1&fit=crop&crop=entropy" alt=""></swiper-slide>
-            <swiper-slide><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC9LVEXj-UM7V_U3hQCHV62YHQVaOCkcY47w&s" alt=""></swiper-slide>
-            <swiper-slide><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF6mH2XXzSAR6Ei_wGP51npSEUYrhk2AH2KA&s" alt=""></swiper-slide>
-            <swiper-slide><img src="https://pbs.twimg.com/profile_images/2706974111/d4a5537272e839c48988d722fa4dcce6_400x400.jpeg" alt=""></swiper-slide>
-            <swiper-slide><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoUPE4gA4HSMurGcN9Dk9GBlVyctzxTP1t2Q&s" alt=""></swiper-slide>
-            <swiper-slide><img src="https://www.bale.com.sg/cdn/shop/products/Heineken_e81d251a-7fc8-4024-b38d-430bb1f06ea3_1024x.jpg?v=1592006667" alt=""></swiper-slide>
-            <swiper-slide><img src="https://storage.googleapis.com/www-paredro-com/uploads/2020/01/21e29faf-jack-daniels-logo-meaning-and-history-500x484.jpg" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/404/3e0f8686263889.Y3JvcCw5NjAsNzUwLDAsMTA0.png" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/b3e82432353161.5605bd24d129f.png" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://pbs.twimg.com/profile_images/1278493325721587712/o1ppvkpf_400x400.jpg" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://media.diageocms.com/media/fiofdars/johnnie-walker-brand.png" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://images.squarespace-cdn.com/content/v1/61996c40d7f9bc62f0109170/a83fb896-b1e8-4204-bcdc-910e9389962d/logo-square.jpg" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvKqd8ZkhyQ26ZjKcw5oX2bsiP70nqL_akFw&s" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://pbs.twimg.com/profile_images/1525257777807073283/Hr35BA-__400x400.jpg" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://shop.saxdepartment.com/storage/images/brands/1685915581CHIVAS%20REGAL%20logo.jpeg" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://icdn.bottlenose.wine/images/full/633428.jpg?ar=1&fit=crop&crop=entropy" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC9LVEXj-UM7V_U3hQCHV62YHQVaOCkcY47w&s" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF6mH2XXzSAR6Ei_wGP51npSEUYrhk2AH2KA&s" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://pbs.twimg.com/profile_images/2706974111/d4a5537272e839c48988d722fa4dcce6_400x400.jpeg" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoUPE4gA4HSMurGcN9Dk9GBlVyctzxTP1t2Q&s" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://www.bale.com.sg/cdn/shop/products/Heineken_e81d251a-7fc8-4024-b38d-430bb1f06ea3_1024x.jpg?v=1592006667" alt=""></swiper-slide>
+            <swiper-slide><img class="img-fluid" src="https://storage.googleapis.com/www-paredro-com/uploads/2020/01/21e29faf-jack-daniels-logo-meaning-and-history-500x484.jpg" alt=""></swiper-slide>
         </swiper-container>
     </div>
     <!-- Seccion porqué elegirnos -->
@@ -270,6 +273,17 @@
             </footer>
             <p class="text-center copyright mb-0 pb-3">Todos los derechos reservados - bbmás s.a.c.</p>
      </div>
+     <!-- Script para mostrar el menu -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggler = document.querySelector('.navbar-toggler');
+            const menu = document.querySelector('.nav-menu');
+    
+            toggler.addEventListener('click', function () {
+                menu.classList.toggle('show');
+            });
+        });
+    </script>
      <!-- script de Swiper -->
      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
       <!-- Script de bootstrap (NO TOCAR) -->
