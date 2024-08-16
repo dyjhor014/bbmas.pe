@@ -316,3 +316,31 @@ footer{
 .navbar-toggler:focus {
     outline: none;
 }
+
+.section-index{
+    float: left;
+    width: 50%;
+    height: 450px;
+    background-color: rgba(238, 246, 246, .4);
+    border-right: #000000 1px solid;
+    border-radius: 50px 0 0 0;
+}
+.section-index img{
+    height: 150px;
+    width: 150px;
+}
+.section-index div, .aside-index div{
+    margin: 1rem;
+}
+.aside-index{
+    float: right;
+    width: 50%;
+    height: 450px;
+    background-color: rgba(238, 246, 246, .4);
+    border-radius: 0 0 50px 0;
+}
+.aside-index img{
+    height: 120px;
+    width: auto;
+    margin: .5rem;
+}
